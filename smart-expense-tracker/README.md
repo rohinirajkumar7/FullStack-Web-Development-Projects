@@ -35,7 +35,7 @@ It features AI-based receipt scanning, automatic expense categorization, and bea
 ---
 
 ## 🏗️ Project Structure
-
+```
 smart-expense-tracker/
 ├── ai-service/ # FastAPI microservice for OCR + NLP + ML
 │ ├── app.py
@@ -79,7 +79,7 @@ smart-expense-tracker/
 ├── README.md
 └── copy_all_files.js
 
-text
+```
 
 ---
 
@@ -90,14 +90,14 @@ text
 git clone https://github.com/yourusername/smart-expense-tracker.git
 cd smart-expense-tracker
 
-text
+
 
 ### ⚙️ 2. Backend Setup (Express)
 
 cd backend
 npm install
 
-text
+
 
 Create a `.env` file:
 
@@ -106,32 +106,32 @@ JWT_SECRET=verysecretkey
 PORT=4000
 AI_SERVICE_URL=http://localhost:8001
 
-text
+
 
 Start server:
 
 npm start
 
-text
+
 
 ### 🤖 3. AI Service Setup (FastAPI)
 
 cd ../ai-service
 pip install -r requirements.txt
 
-text
+
 
 Download OCR models:
 
 python download_models.py
 
-text
+
 
 Run AI microservice:
 
 python service.py
 
-text
+
 
 ### 💻 4. Frontend Setup (React + Vite)
 
@@ -139,7 +139,7 @@ cd ../frontend
 npm install
 npm run dev
 
-text
+
 
 Frontend runs on http://localhost:5173
 
